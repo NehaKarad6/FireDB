@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Display(View view) {
-        mDatabase.child("mobiles").child("12").addValueEventListener(new ValueEventListener() {
+        mDatabase.child("users").child("8390").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
